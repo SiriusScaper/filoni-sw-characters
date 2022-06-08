@@ -6,7 +6,7 @@ const PORT = 8888
 app.use(cors())
 
 const swCharacters = {
-    'Ahsoka Tano': {
+    'ahsoka tano': {
         'currentAge': 45,
         'sex': 'Female',
         'species': 'Togruta',
@@ -15,7 +15,7 @@ const swCharacters = {
         'firstLiveAction': 'Star Wars: The Mandolorian',
         'Affiliations': ['Jedi Order', 'Galactic Republic', '501st Legion', 'Bail Organas Resistance', 'Rebel Intelligence', 'Phoenix Cell'],
     },
-    'Sabine Wren': {
+    'sabine wren': {
         'currentAge': 30,
         'sex': 'Female',
         'species': 'Human',
