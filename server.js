@@ -25,9 +25,13 @@ const swCharacters = {
         'Affiliations': ['House Vizsla', 'Clan Wren', 'Galactic Empire', 'Alliance to Restore the Republic', 'Spectres', 'Phoenix Cell', 'Mandalorian resistance'],
     },
     'unknown':{
-        'Jedi': false,
         'currentAge': 0,
+        'sex': 'unknown',
+        'species': 'unknown',
         'birthPlanet': 'unknown',
+        'firstAppearance': 'unknown',
+        'firstLiveAction': 'unknown',
+        'Affiliations': [],
     }
 }
 app.get('/', (req, res)=>{
