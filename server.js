@@ -7,10 +7,12 @@ app.use(cors())
 
 const swCharacters = {
     'Ahsoka Tano': {
+        'Jedi': true,
         'currentAge': 45,
         'birthPlanet': 'Shili'
     },
     'unknown':{
+        'Jedi': false,
         'currentAge': 0,
         'birthPlanet': 'unknown',
     }
