@@ -7,9 +7,22 @@ app.use(cors())
 
 const swCharacters = {
     'Ahsoka Tano': {
-        'Jedi': true,
         'currentAge': 45,
-        'birthPlanet': 'Shili'
+        'sex': 'Female',
+        'species': 'Togruta',
+        'birthPlanet': 'Shili',
+        'firstAppearance': 'Star Wars: The Clone Wars',
+        'firstLiveAction': 'Star Wars: The Mandolorian',
+        'Affiliations': ['Jedi Order', 'Galactic Republic', '501st Legion', 'Bail Organas Resistance', 'Rebel Intelligence', 'Phoenix Cell'],
+    },
+    'Sabine Wren': {
+        'currentAge': 30,
+        'sex': 'Female',
+        'species': 'Human',
+        'birthPlanet': 'Mandalore',
+        'firstAppearance': 'Star Wars: Rebels',
+        'firstLiveAction': 'Star Wars: Ahsoka',
+        'Affiliations': ['House Vizsla', 'Clan Wren', 'Galactic Empire', 'Alliance to Restore the Republic', 'Spectres', 'Phoenix Cell', 'Mandalorian resistance'],
     },
     'unknown':{
         'Jedi': false,
